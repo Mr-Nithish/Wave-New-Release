@@ -1,0 +1,92 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.Navbar h3{
+    padding-left: 4vw;
+    font-family: 'Whisper', cursive;
+    font-size: 2.3rem;
+    color: rgb(35, 209, 35);
+    cursor: pointer;
+}
+
+.Navbar .nav-options{
+
+    display: flex;
+    align-items: center;
+    padding-right: 3vw;
+    gap: 30px;
+}
+
+.Navbar ul{
+    display: flex;
+    gap: 30px;
+}
+
+.Navbar a{
+    text-decoration: none;
+}
+.Navbar ul li{
+    list-style: none;
+    cursor: pointer;
+    color: #807e7e;
+}
+
+.Navbar ul li:hover{
+    color: #000;
+}
+
+.Navbar ul Link{
+    list-style: none;
+    cursor: pointer;
+    color: #807e7e;
+}
+
+.Navbar ul Link:hover{
+    color: #000;
+}
+
+.nav-search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #3f3f3faf;
+    padding: 3px;
+    border-radius: 2rem;
+}
+
+.nav-search span{
+
+    display: flex;
+    align-items: center;
+}
+
+.nav-search-icon{
+    color: #807e7e;
+    padding-left: 5px;
+}
+
+.nav-search span input{
+    border: none;
+}
+
+.nav-search span input:focus{
+    outline: none;
+}
+
+.nav-search button{
+    border-radius: 2rem;
+    padding: 0 10px;
+    border: none;
+    background-color: rgb(102, 110, 102);
+    color: aliceblue;
+    height: 4vh;
+    cursor: pointer;
+}

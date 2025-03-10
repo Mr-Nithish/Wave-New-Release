@@ -1,0 +1,137 @@
+.Recipie-page{
+    padding-top: 12vh;
+    min-height: 60vh;
+}
+
+.recipie-img{
+
+    width: 100%;
+    padding-top: 2vh;
+}
+
+.recipie-img img{
+
+    width: 98%;
+    margin-left: 1%;
+    height: 85vh;
+    border-radius: 0.7rem;
+}
+
+.recipie-data-container{
+
+    display: grid;
+    grid-template-columns: 65% 25%;
+    justify-content: space-evenly;
+    
+}
+
+.recipie-data{
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    position: relative;
+    top: -15vh;
+    background-color: #fff;
+    padding: 4vh 2vw;
+    border-radius: 0.6rem;
+}
+
+.recipie-header{
+
+
+}
+
+.recipie-header h4{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.recipie-header .recipie-specials{
+    display: flex;
+    gap: 10px;
+}
+
+.recipie-header .recipie-specials p{
+    border: 1px solid rgb(35, 209, 35);
+    color: rgb(35, 209, 35);
+    padding: 5px 20px;
+    border-radius: 2rem;
+    font-size: 0.7rem;
+}
+
+.recipie-data .procedure{
+
+}
+
+.recipie-data .procedure h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 3vh;
+}
+
+
+.recipie-data .procedure p{
+    margin: 0;
+    font-size: 0.9rem;   
+}
+
+.youtube-video-container{
+
+
+}
+
+.youtube-video-container h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 3vh;
+}
+
+
+
+
+.ingredients-container{
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    position: relative;
+    top: -15vh;
+    background-color: #fff;
+    padding: 4vh 2vw;
+    border-radius: 0.6rem;
+    height: fit-content;
+}
+
+.ingredients-container h3{
+    margin: 0;
+    padding-bottom: 1vh;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(23, 162, 23);
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.ingredient{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ingredient h5{
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 400;
+    max-width: 50%;
+}
+
+.ingredient p{
+    margin: 0;
+    font-size: 0.8rem;
+    max-width: 40%;
+}

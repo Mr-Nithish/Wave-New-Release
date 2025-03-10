@@ -1,0 +1,54 @@
+.footer{
+
+    background-color: rgb(31, 115, 31);
+    padding: 5vh 2vw 0 2vw;
+
+}
+
+.footer h3{
+    
+    font-family: 'Whisper', cursive;
+    color: aliceblue;
+    font-size: 2.3rem;
+    margin: 0;
+    padding-left: 2vw;
+}
+
+.footer hr{
+
+
+}
+
+.footer-options {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-options ul{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+
+.footer-options ul li{
+    list-style: none;
+    cursor: pointer;
+    color: rgb(229, 230, 231);
+    font-size: 0.8rem;
+}
+
+.footer-options ul li:hover{
+    color: #ffffff;
+}
+
+.footer p{
+    margin: 0;
+    text-align: center;
+    padding: 2vh 0;
+    color: rgb(182, 182, 182);
+}

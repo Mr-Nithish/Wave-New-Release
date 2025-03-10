@@ -1,0 +1,108 @@
+.newsletter-container{
+
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-body{
+
+    width: 70%;
+    margin-left: 10%;
+    padding: 8vh 5vw;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    display: flex;
+    border-radius: 0.6rem;
+}
+
+.newsletter-text{
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    width: 50%;
+}
+
+.newsletter-text .food-icon{
+    font-size: 3.5rem;
+    color: rgb(35, 209, 35);
+}
+
+.newsletter-text span{
+    width: 80%;
+    text-align: left;   
+}
+
+.newsletter-text span h4{
+
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.newsletter-text span p{
+
+    margin: 0;
+    font-size: 0.55rem;
+}
+
+.newsletter-input-body{
+
+    margin-left: 5%;
+}
+
+.newsletter-input{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #000;
+    padding: 3px 3px 3px 5px;
+    border-radius: 0.2rem;
+}
+
+.newsletter-input span{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.newsletter-input span .mail-icon{
+
+    color: rgb(35, 209, 35);
+}
+
+.newsletter-input span input{
+    height: 8vh;
+    border: none;
+    width: 90%;
+}
+
+.newsletter-input span input:focus{
+    outline: none;
+
+}
+
+.newsletter-input button{
+    width: 25%;
+    height: 8vh;
+    background-color: #000;
+    border: 2px solid #000;
+    color: aliceblue;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.newsletter-input-body p{
+
+    font-size: 0.8rem;
+    display: flex;
+    align-items: start;
+    gap: 5px;
+    color: #8f8f8f;
+}
+
+.newsletter-input-body p .tick-icon{
+
+    font-size: 1.2rem;
+    color: rgb(35, 209, 35);
+}
